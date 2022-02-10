@@ -1,0 +1,39 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "description": "React and TypeScript example starter project",
+  "keywords": [
+    "typescript",
+    "react",
+    "starter"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "prettier": "^2.5.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.4.0",
+    "@types/react": "17.0.20",
+    "@types/react-dom": "17.0.9",
+    "typescript": "4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "format": "prettier  \"src/**/*.{js,html,jsx,ts,tsx}\"  --write"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

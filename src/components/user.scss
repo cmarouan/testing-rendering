@@ -1,0 +1,46 @@
+.user__container {
+    width: 441px;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+
+    &-info {
+        width: 211px;
+        margin: 4rem 0 0 1rem;
+
+        &-name {
+            overflow: hidden;
+            font-weight: 400;
+            font-size: 24px;
+        }
+
+        &-email {
+            overflow: hidden;
+            font-size: 18px;
+            color: #C4C4C4;
+        }
+
+        &-actions {
+            float: right;
+            margin: 2rem -4.5rem 0 0;
+            
+
+            &-delete {
+                background-color: #DC497E;
+                color: white;
+                width: fit-content;
+                padding: 0.2rem;
+                cursor: pointer;
+            }
+
+            &-update {
+                background-color: #49B9DC;
+                color: white;
+                width: fit-content;
+                padding: 0.2rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

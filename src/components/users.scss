@@ -1,0 +1,21 @@
+.users__container {
+    width: 1440px;
+    display: grid;
+    grid-template-columns: 441px 441px 441px;
+    grid-gap: 33px;
+    margin: 2rem auto 0;
+    background-color: #F7F7F7;
+
+
+
+    @media (max-width: 1024px) { 
+        grid-template-columns: 100%;
+        width: 500px;
+
+    }
+
+    @media (max-width: 1480px) and (min-width: 1024px) { 
+        grid-template-columns: 50% 50%;
+        width: 1000px;
+    }
+}
